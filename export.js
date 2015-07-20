@@ -1,2 +1,2 @@
-lodash = this._;
-_ = lodash;
+lodash = Npm.require('lodash');
+// _ = lodash;
