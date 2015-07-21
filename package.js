@@ -15,9 +15,9 @@ Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.0');
 
   // api.addFiles('lodash/lodash.js');
-  api.addFiles('export.js');
+  api.addFiles('export.js', ['server']);
 
-  api.export('lodash');
+  api.export('lodash', ['server']);
   // api.export('_');
 });
 
